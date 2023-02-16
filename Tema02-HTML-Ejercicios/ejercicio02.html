@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="">
+        <fieldset>
+            <legend>
+                Informacion Personal
+            </legend>
+            <label for="">Nombre:</label>
+            <input name="nombre" type="text" placeholder="Nombre">
+            <label for="">Apellidos:</label>
+            <input name="apellidos" type="text" placeholder="Apellidos">
+            <p></p>
+            <label for="">Edad</label>
+            <input name="edad" type="number" placeholder="25">
+            <p></p>
+            <label for="">Email</label>
+            <input name="email" type="email" placeholder="nombre@email.com">
+            <p></p>
+            <fieldset>
+                <legend>Genero</legend>
+                <input type="radio" name="genero" value="hombre">
+                <label for="">Hombre</label>
+                <br>
+                <input type="radio" name="genero" value="mujer">
+                <label for="">Mujer</label>
+                <br>
+                <input type="radio" name="genero" value="otro">
+                <label for="">Otro</label>
+            </fieldset>
+            <p></p>
+            <label for="">Pais</label>
+            <input name="pais" type="text" placeholder="Introduce tu país">
+            <p></p>
+            <label for="">Lenguaje de programación</label>
+            <select name="lenguaje" id="">
+                <option value="javascript">Javascript</option>
+                <option value="php">Php</option>
+                <option value="java">Java</option>
+            </select>
+            <p></p>
+            <fieldset>
+                <legend>Selecciona tu academia de programacion favorita:</legend>
+                <input type="radio" name="academia" value="codeSpaceAcademy">
+                <label for="">Code Space Academy</label>
+                <br>
+                <input type="radio" name="academia" value="academia2">
+                <label for="">Academia 2</label>
+                <br>
+                <input type="radio" name="academia" value="academia3">
+                <label for="">Academia 3</label>
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="checkbox" name="recibirCorreos">
+        <label for="">Acepto recibir cientos de miles de correo irrelevantes.</label>
+        <br>
+        <input type="checkbox" name="aceptoTerminos">
+        <label for="">Acepto los terminos y condiciones.</label>
+        <p></p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Vaciar formulario">
+    </form>
+</body>
+</html>
