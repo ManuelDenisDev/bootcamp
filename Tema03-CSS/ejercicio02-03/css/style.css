@@ -1,0 +1,27 @@
+nav {
+    background-color: #eeeeee;
+    border: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+}
+ul {
+    padding: 0px;
+    width: 50%;
+}
+
+ul>li {
+    color: 333;
+    background-color: #ddd;
+    padding: 4px;
+    list-style-position: inside;
+    list-style-image: url(../images/fast-forward.png);
+    border: 1px solid rgb(179, 179, 179);
+    cursor: pointer;
+}
+
+li:hover {
+    list-style-image: url(../images/next.png);
+    color: aquamarine;
+    background-color: black;    
+}
