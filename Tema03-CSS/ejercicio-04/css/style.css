@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.topBar {
+    position: relative;
+}
+
+.topBar img {
+    height: 50px;
+}
+
+.topBar form {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -17px;
+}
+
+.topBar input {
+    height: 34px;
+}
+
+.asideLeft {
+    float: left;
+    width: 25%;
+}
+
+main {
+    float: right;
+    width: 75%;
+}
+
+.subcontenedor{
+    float: left;
+    width: 80%;
+}
+
+.asideDerecho {
+    float: right;
+    width: 20%;
+}
+
+section img {
+    float: left;
+    width: 100px;
+    margin: 10px;
+}
+
+footer{
+    clear: left;
+    height: 50px;
+    vertical-align: middle
+}
+
+.navFooter {
+    float: left;
+}
+.copy {
+    float: right;
+}
